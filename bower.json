@@ -6,6 +6,11 @@
     "bower_components",
     "output"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/athanclark/purescript-thermite-dom.git"
+  },
+  "license": "BSD-3-Clause",
   "dependencies": {
     "purescript-prelude": "^4.1.0",
     "purescript-thermite": "^6.0.0",
