@@ -13,7 +13,7 @@
   "license": "BSD-3-Clause",
   "dependencies": {
     "purescript-prelude": "^4.1.0",
-    "purescript-thermite": "^6.0.0",
+    "purescript-thermite": "^6.x",
     "purescript-react": "^6.1.0"
   },
   "devDependencies": {
