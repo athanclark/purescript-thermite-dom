@@ -7,3 +7,6 @@
 /.psc*
 /.purs*
 /.psa*
+/tmp/
+/html/index.js
+package-lock.json
