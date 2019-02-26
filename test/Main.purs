@@ -20,4 +20,4 @@ import Thermite.DOM (defaultMain)
 
 -- | The main method creates the task list component, and renders it to the document body.
 main :: Effect Unit
-main = defaultMain taskList initialTaskListState "TaskList" {}
+main = defaultMain taskList (const initialTaskListState) "TaskList" {}
