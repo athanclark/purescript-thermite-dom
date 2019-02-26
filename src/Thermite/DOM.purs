@@ -19,7 +19,7 @@ defaultMain
   :: forall state props given action
    . ReactPropFields props given
   => Spec { | state } (WithChildren props) action
-  -> { | state } -- ^ Initial State
+  -> (WithChildren props -> { | state }) -- ^ Initial State
   -> String -- ^ Component Name
   -> { | given } -- ^ Read-Only Props
   -> Effect Unit
